@@ -1,0 +1,21 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "scripts": {
+    "webdriver:update": "webdriver-manager update",
+    "test": "protractor ./protractor.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sabina0202/Calculator"
+  },
+  "author": "Sabina",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "protractor": "^7.0.0"
+  }
+}
